@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BATERÍA CON JS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!-- caja principal -->
+    <div id="cajaletras">
+        <!-- caja de letras -->
+        <div class="cajaIndividual" data-key="65">
+            <p class="letra" >A</p>
+            <p class="sonido">CLAP</p>
+        </div>
+
+        <div class="cajaIndividual" data-key="83">
+            <p class="letra">S</p>
+            <p class="sonido">HIHAT</p>
+        </div>
+            
+        <div class="cajaIndividual" data-key="68">
+            <p class="letra">D</p>
+            <p class="sonido">KICK</p>
+        </div>
+
+        <div class="cajaIndividual" data-key="70" >
+            <p class="letra">F</p>
+            <p class="sonido">OPENHAT</p>
+        </div>
+
+        <div class="cajaIndividual"  data-key="71">
+            <p class="letra">G</p>
+            <p class="sonido">BOOM</p>
+        </div>
+
+        <div class="cajaIndividual" data-key="72">
+            <p class="letra">H</p>
+            <p class="sonido">RIDE</p>
+        </div>
+
+        <div class="cajaIndividual" data-key="74">
+            <p class="letra">J</p>
+            <p class="sonido">SNARE</p>
+        </div>
+
+         <div class="cajaIndividual" data-key="75">
+            <p class="letra">K</p>
+            <p class="sonido">TOM</p>
+        </div>
+            
+        <div class="cajaIndividual" data-key="76">
+            <p class="letra">L</p>
+            <p class="sonido">TINK</p>
+        </div>
+    </div>
+
+    <!-- AÑADIMOS LOS AUDIOS -->
+     <audio id="clap" src="sounds/clap.wav"></audio>
+     <audio id="hihat" src="sounds/hihat.wav"></audio>
+     <audio id="kick" src="sounds/kick.wav"></audio>
+     <audio id="openhat" src="sounds/openhat.wav"></audio>
+     <audio id="boom" src="sounds/boom.wav"></audio>
+     <audio id="ride" src="sounds/ride.wav"></audio>
+     <audio id="snare" src="sounds/snare.wav"></audio>
+     <audio id="tom" src="sounds/tom.wav"></audio>
+     <audio id="tink" src="sounds/tink.wav"></audio>
+</body>
+</html>
